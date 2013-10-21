@@ -4,6 +4,8 @@ Description
 A simple Libre Office / Open Office Add-On delivering a user-friendly, powerful
 compression tool.
 
+Supports Libre Office CALC
+
 Supported input file format:
  .CSV
  .CSVCOMP
@@ -19,8 +21,25 @@ It supports:
  raw data tables containing quoted cells
 
 
+Installation guide
+=========================
 
-CsvCompressionPluginFinal
+Download the .OXT packed Add-On
+
+1. Double-click the .OXT file
+   A Libre Office installation manager will appear
+   Select CsvCompressionPluginFinal.OXT 
+   Select Install extension
+
+2. Installing the Add-On from within Libre Office
+   Open Libre Office
+   Select Tools -> Extension Manager
+   Select Add...
+   Choose the .OXT file you just downloaded
+
+You have now successfully installed the Libre Office Add-On!
+
+Usage
 =========================
 
 Implements default Libre Office / Open Office bootstrap procedures.
@@ -47,3 +66,9 @@ Details
 
 Compressed files are saved as .csvcomp format
 By default, they are saved in the same location as the source .CSV file
+
+
+Hints
+=========================
+
+Compressing an .XLS, .XLSX or .ODS documents can be done by converting it to a .CSV file format, which is fully suppored by Libre Office Calc
