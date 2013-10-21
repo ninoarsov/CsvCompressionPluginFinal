@@ -1,3 +1,13 @@
+Description
+=========================
+
+A simple Libre Office / Open Office Add-On delivering a user-friendly, powerful
+compression tool.
+Supported input file format: .CSV, .CSVCOMP
+Output file format: .CSVCOMP
+
+Implements RLE 
+
 CsvCompressionPluginFinal
 =========================
 
@@ -23,5 +33,5 @@ User guide:
 Details
 =========================
 
--Compressed files are saved as .csvcomp format
--By default, they are saved in the same location as the source .CSV file
+Compressed files are saved as .csvcomp format
+By default, they are saved in the same location as the source .CSV file
