@@ -3,10 +3,22 @@ Description
 
 A simple Libre Office / Open Office Add-On delivering a user-friendly, powerful
 compression tool.
-Supported input file format: .CSV, .CSVCOMP
-Output file format: .CSVCOMP
 
-Implements RLE 
+Supported input file format:
+ .CSV
+ .CSVCOMP
+
+Output file format:
+ .CSV
+ .CSVCOMP
+
+Implements RLE based compression over table-formatted data.
+It supports:
+ raw data tables
+ raw data tables with headers
+ raw data tables containing quoted cells
+
+
 
 CsvCompressionPluginFinal
 =========================
